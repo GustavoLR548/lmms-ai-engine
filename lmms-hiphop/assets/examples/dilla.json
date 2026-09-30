@@ -1,0 +1,43 @@
+{
+  "title": "Crooked Clock",
+  "slug": "crooked-clock",
+  "style": "dilla",
+  "bpm": 82,
+  "key": "Bb",
+  "seed": 13,
+  "palette": {"keys": "chorus_ep", "bass": "lately_bass", "pad": "drawbar_organ", "kit": "dilla", "textures": ["vinyl"]},
+  "progressions": {
+    "a": ["vi9", "v9", "IVmaj9", "III7alt"],
+    "b": ["IVmaj9", "iv9", "iii7 VI7alt", "ii9 V13sus"]
+  },
+  "melodies": {
+    "horn": [
+      [0, 2, 2, "D5"], [0, 4, 6, "F5"], [0, 10, 2, "G5"], [0, 12, 4, "F5"],
+      [1, 0, 6, "F5"], [1, 6, 2, "Db5"], [1, 8, 8, "Bb4"],
+      [2, 0, 4, "A4"], [2, 4, 4, "C5"], [2, 8, 4, "Ab4"], [2, 12, 4, "B4"],
+      [3, 0, 4, "D5"], [3, 4, 4, "Eb5"], [3, 8, 4, "D5"], [3, 12, 4, "C5"],
+      [4, 2, 2, "G5"], [4, 4, 6, "F5"], [4, 10, 2, "D5"], [4, 12, 4, "Bb4"],
+      [5, 0, 6, "Bb4"], [5, 6, 2, "Db5"], [5, 8, 8, "F5"],
+      [6, 0, 4, "F5"], [6, 4, 4, "C5"], [6, 8, 4, "Eb5"], [6, 12, 4, "B4"],
+      [7, 0, 8, "C5"], [7, 8, 8, "Bb4"]
+    ],
+    "flute": [
+      [1, 8, 2, "G5"], [1, 10, 2, "Ab5"], [1, 12, 4, "Eb5"],
+      [3, 8, 2, "F#5"], [3, 10, 2, "Eb5"], [3, 12, 4, "C5"],
+      [5, 8, 2, "Ab5"], [5, 10, 2, "G5"], [5, 12, 4, "F5"],
+      [7, 8, 2, "Bb5"], [7, 10, 2, "F#5"], [7, 12, 4, "D5"]
+    ]
+  },
+  "sections": [
+    {"name": "Cold open", "bars": 4, "prog": "a", "keys": "filtered", "bass": "none", "drums": "none"},
+    {"name": "Flip A", "bars": 8, "prog": "a", "keys": "mpc", "bass": "hook", "drums": "dilla", "crash": true},
+    {"name": "Flip A organ", "bars": 8, "prog": "a", "keys": "mpc", "bass": "kick_lock", "drums": "dilla", "pad": true},
+    {"name": "B side", "bars": 8, "prog": "b", "keys": "hold", "bass": "whole", "drums": "dilla_ride", "pad": true,
+     "leads": [{"inst": "muted_trumpet", "melody": "horn", "vel": 82}]},
+    {"name": "Break", "bars": 4, "prog": "a", "keys": "none", "bass": "hook", "drums": "dilla_sparse", "fill": "drop"},
+    {"name": "Flip A flute", "bars": 8, "prog": "a", "keys": "mpc", "bass": "hook", "drums": "dilla", "crash": true,
+     "leads": [{"inst": "gs_flute", "melody": "flute", "vel": 76}]},
+    {"name": "B stabs", "bars": 4, "prog": "b", "keys": "stabs", "bass": "kick_lock", "drums": "dilla", "pad": true},
+    {"name": "Tape out", "bars": 4, "prog": "a", "keys": "mpc", "bass": "none", "drums": "none"}
+  ]
+}

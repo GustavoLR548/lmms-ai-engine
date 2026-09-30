@@ -1,0 +1,91 @@
+{
+  "skill_name": "lmms-electronic",
+  "evals": [
+    {
+      "id": 1,
+      "name": "focus-work-4min",
+      "prompt": "Make me a deep focus track I can work to. Calm, steady, nothing distracting. Around 4 minutes.",
+      "expected_output": "A 'focus' style track of ~4 minutes (3:30-4:30), 72-100 BPM, soft steady pulse, very few lead notes, no crashes / risers, slow filter and layer movement in most sections, fades, mastered mp3 at -16 LUFS.",
+      "files": [],
+      "expectations": [
+        "A song.json was delivered and uses the 'focus' style",
+        "The song builds with 0 harmony / spec problems",
+        "The mastered mp3 is 3:30-4:30 long",
+        "Mastered to -17..-15 LUFS with true peak <= -0.5 dBFS",
+        "Movement over time: at least half the sections (and 3+) use move / pump automation",
+        "Every section changes at least one thing from the section before it",
+        "No 4/8-bar loop plays on longer than the style allows (something changes every ~8 bars)",
+        "A reply with a timestamped section list was delivered (response.md)",
+        "Focus tempo 72-100 BPM",
+        "Nothing distracting: only soft grooves, no crashes or risers",
+        "Melody stays in the background (<= 24 lead notes per minute)",
+        "Fades in and out with master.level"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "minimal-breakdown-5min",
+      "prompt": "I want a minimal techno track, around 5 minutes, hypnotic, with a proper breakdown in the middle.",
+      "expected_output": "A 'minimal' style track of ~5 minutes (4:30-5:30), 116-128 BPM, four-on-the-floor for most of the track, a kickless breakdown in the middle with the kick returning after it, pumping and filter moves, only a few distinct chords.",
+      "files": [],
+      "expectations": [
+        "A song.json was delivered and uses the 'minimal' style",
+        "The song builds with 0 harmony / spec problems",
+        "The mastered mp3 is 4:30-5:30 long",
+        "Mastered to -17..-15 LUFS with true peak <= -0.5 dBFS",
+        "Movement over time: at least half the sections (and 3+) use move / pump automation",
+        "Every section changes at least one thing from the section before it",
+        "No 4/8-bar loop plays on longer than the style allows (something changes every ~8 bars)",
+        "A reply with a timestamped section list was delivered (response.md)",
+        "Minimal tempo 116-128 BPM",
+        "Four-on-the-floor kick for at least half the track",
+        "The groove (kick + bass) is there within 16 s - no long DJ intro",
+        "A breakdown (8+ bars without the kick) in the middle half, with the kick coming back",
+        "Sidechain-style pump used",
+        "Hypnotic harmony: at most 4 chord roots"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ambient-narration-bed-3min",
+      "prompt": "Ambient background music for a nature documentary style video, 3 minutes, very soft, no drums. It will sit under narration.",
+      "expected_output": "An 'ambient' style track of ~3 minutes (2:45-3:15), no drums anywhere, bed mode (or equivalently quiet leads), slow harmony (chords 2+ bars), fade in and out, mastered mp3.",
+      "files": [],
+      "expectations": [
+        "A song.json was delivered and uses the 'ambient' style",
+        "The song builds with 0 harmony / spec problems",
+        "The mastered mp3 is 2:45-3:15 long",
+        "Mastered to -24..-15 LUFS with true peak <= -0.5 dBFS",
+        "Movement over time: at least half the sections (and 3+) use move / pump automation",
+        "Every section changes at least one thing from the section before it",
+        "No 4/8-bar loop plays on longer than the style allows (something changes every ~8 bars)",
+        "A reply with a timestamped section list was delivered (response.md)",
+        "No drums anywhere",
+        "Made to sit under narration: bed mode or a very sparse melody (<= 12 notes / min)",
+        "Slow harmony: chords last 2 bars or more on average",
+        "Fades in and out with master.level"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "downtempo-flute-hook-4min",
+      "prompt": "Can you make a downtempo track, kind of Bonobo vibes, with a catchy flute hook? About 4 minutes.",
+      "expected_output": "A 'downtempo' style track of ~4 minutes (3:30-4:30), 80-100 BPM, swung broken beat, a flute lead whose hook melody returns in at least two sections, mastered mp3.",
+      "files": [],
+      "expectations": [
+        "A song.json was delivered and uses the 'downtempo' style",
+        "The song builds with 0 harmony / spec problems",
+        "The mastered mp3 is 3:30-4:30 long",
+        "Mastered to -17..-15 LUFS with true peak <= -0.5 dBFS",
+        "Movement over time: at least half the sections (and 3+) use move / pump automation",
+        "Every section changes at least one thing from the section before it",
+        "No 4/8-bar loop plays on longer than the style allows (something changes every ~8 bars)",
+        "A reply with a timestamped section list was delivered (response.md)",
+        "Downtempo tempo 80-100 BPM with swing",
+        "A flute hook that returns in at least two sections",
+        "A broken / swung beat (broken or breaks) in the main sections",
+        "Fades out with master.level"
+      ]
+    }
+  ]
+}

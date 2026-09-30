@@ -1,0 +1,58 @@
+{
+  "title": "Rain On The Window",
+  "slug": "rain-on-the-window",
+  "bpm": 70,
+  "key": "Ab",
+  "swing": 3,
+  "seed": 4,
+  "mode": "listen",
+  "wow": 0.00025,
+  "tone": {"keys_lp": 4500, "drums_lp": 9000},
+  "palette": {"keys": "rhodes", "bass": "warm_sine", "pad": "soft_saw_pad", "kit": "dusty", "textures": ["vinyl", "rain"]},
+  "progressions": {
+    "intro": ["vi9", "vi11", "IVmaj9", "III7alt"],
+    "verse": ["vi9", "IVmaj9", "ii9", "III7alt"],
+    "hook": ["IVmaj9", "V13sus", "iii7", "vi9"],
+    "bridge": ["ii9", "V13", "Imaj9", "vi11"],
+    "outro": ["vi9", "IVmaj9", "vi9", "vi9"]
+  },
+  "melodies": {
+    "answers": [
+      [3, 8, 2, "2"], [3, 10, 2, "4"], [3, 12, 4, "b6"],
+      [7, 8, 2, "2"], [7, 10, 2, "4"], [7, 12, 4, "b6"]
+    ],
+    "hook": [
+      [0, 0, 3, "3"], [0, 3, 3, "5"], [0, 6, 4, "6"], [0, 10, 6, "1'"],
+      [1, 0, 4, "1'"], [1, 4, 2, "6"], [1, 6, 4, "5"], [1, 10, 6, "4"],
+      [2, 0, 6, "3"], [2, 6, 2, "5"], [2, 8, 8, "7"],
+      [3, 0, 4, "6"], [3, 4, 2, "5"], [3, 6, 10, "3"],
+      [4, 0, 3, "3"], [4, 3, 3, "5"], [4, 6, 4, "6"], [4, 10, 3, "3'"], [4, 13, 3, "1'"],
+      [5, 0, 6, "2'"], [5, 6, 2, "1'"], [5, 8, 4, "6"], [5, 12, 4, "5"],
+      [6, 0, 4, "5"], [6, 4, 4, "3"], [6, 8, 8, "2"],
+      [7, 0, 4, "3"], [7, 4, 4, "1"], [7, 8, 8, "6,"]
+    ],
+    "bridge": [
+      [0, 0, 8, "4"], [0, 8, 8, "6"],
+      [1, 0, 12, "7"], [1, 12, 4, "6"],
+      [2, 0, 8, "5"], [2, 8, 8, "3"],
+      [3, 0, 16, "2"],
+      [4, 0, 8, "6"], [4, 8, 8, "1'"],
+      [5, 0, 8, "7"], [5, 8, 8, "2'"],
+      [6, 0, 8, "3'"], [6, 8, 8, "2'"],
+      [7, 0, 12, "1'"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 4, "prog": "intro", "keys": "filtered", "bass": "none", "drums": "intro"},
+    {"name": "Verse", "bars": 8, "prog": "verse", "keys": "chop", "bass": "kick_lock", "drums": "boombap",
+     "riser": true, "fill": "pickup", "leads": [{"inst": "flute", "melody": "answers", "vel": 72}]},
+    {"name": "Hook 1", "bars": 8, "prog": "hook", "keys": "hold", "bass": "hook", "drums": "boombap_busy",
+     "crash": true, "riser": true, "fill": "stop", "leads": [{"inst": "flute", "melody": "hook", "vel": 84}]},
+    {"name": "Bridge", "bars": 8, "prog": "bridge", "keys": "arp", "bass": "halftime", "drums": "halftime",
+     "pad": true, "fill": "build", "leads": [{"inst": "vibes", "melody": "bridge", "vel": 76}]},
+    {"name": "Hook 2", "bars": 8, "prog": "hook", "keys": "sync", "bass": "walk", "drums": "ride", "pad": true,
+     "crash": true, "riser": true,
+     "leads": [{"inst": "flute", "melody": "hook", "vel": 86}, {"inst": "vibes", "melody": "hook", "vel": 66, "harmony": "below"}]},
+    {"name": "Outro", "bars": 8, "prog": "outro", "keys": "filtered", "bass": "whole", "drums": "fade_out"}
+  ]
+}

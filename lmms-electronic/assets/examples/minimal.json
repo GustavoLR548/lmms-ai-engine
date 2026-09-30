@@ -1,0 +1,63 @@
+{
+  "title": "Night Transit",
+  "slug": "night-transit",
+  "style": "minimal",
+  "bpm": 122,
+  "key": "C",
+  "seed": 5,
+  "palette": {"keys": "house_pluck", "keys2": "glass_arp", "bass": "decay_bass", "pad": "analog_pad", "kit": "tr909",
+              "textures": []},
+  "progressions": {
+    "vamp": ["vi9"],
+    "lift": ["vi9", "vi9", "IVmaj9", "V9sus"]
+  },
+  "melodies": {
+    "hook": [
+      [0, 0, 4, "E5"], [0, 4, 4, "G5"], [0, 8, 8, "A5"],
+      [1, 0, 4, "C6"], [1, 4, 4, "B5"], [1, 8, 8, "G5"],
+      [2, 0, 8, "A5"], [2, 8, 8, "G5"],
+      [3, 0, 8, "F5"], [3, 8, 8, "D5"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 4, "prog": "vamp", "keys": "none", "bass": "rolling", "drums": "four_kick",
+     "move": {"bass.cutoff": [400, 1500]}},
+    {"name": "Groove", "bars": 8, "prog": "vamp", "keys": "none", "bass": "rolling", "drums": "four_min",
+     "move": {"bass.cutoff": [1500, 6000]}},
+    {"name": "Groove 2", "bars": 8, "prog": "vamp", "keys": "none", "bass": "minimal", "drums": "four_min",
+     "shaker": true},
+    {"name": "Stabs", "bars": 8, "prog": "vamp", "keys": "stab_dub", "bass": "rolling", "drums": "four_min",
+     "move": {"keys.cutoff": [500, 2000]}},
+    {"name": "Drive", "bars": 8, "prog": "vamp", "keys": "stab_dub", "bass": "rolling", "drums": "four", "perc": true,
+     "move": {"keys.cutoff": [2000, 3500]}},
+    {"name": "Lift", "bars": 8, "prog": "vamp", "keys": "stab_off", "bass": "rolling", "drums": "four", "pad": true,
+     "pump": {"pad": 0.6}, "move": {"keys.cutoff": [3500, 5000], "pad.cutoff": [600, 3000]}},
+    {"name": "Break", "bars": 8, "prog": "lift", "keys": "none", "bass": "none", "drums": "none", "pad": true,
+     "move": {"pad.cutoff": [1500, 5000], "pad.level": 1.35},
+     "leads": [{"inst": "ping", "melody": "hook", "at": 0, "vel": 74}, {"inst": "ping", "melody": "hook", "at": 4, "vel": 80}]},
+    {"name": "Break 2", "bars": 8, "prog": "lift", "keys": "none", "bass": "none", "drums": "four_break", "pad": true,
+     "fill": "build", "move": {"pad.cutoff": [5000, 6000]},
+     "leads": [{"inst": "ping", "melody": "hook", "at": 0, "vel": 80}, {"inst": "ping", "melody": "hook", "at": 4, "vel": 84},
+               {"inst": "chimes", "melody": "hook", "at": 4, "vel": 60, "harmony": "below"}]},
+    {"name": "Peak", "bars": 8, "prog": "lift", "keys": "stab_off", "bass": "offbeat", "drums": "four", "pad": true,
+     "crash": true, "riser": true, "pump": {"pad": 0.6, "keys": 0.3},
+     "move": {"keys.cutoff": 6000, "pad.cutoff": 6000, "pad.level": 1},
+     "leads": [{"inst": "ping", "melody": "hook", "at": 0, "vel": 80}, {"inst": "ping", "melody": "hook", "at": 4, "vel": 84}]},
+    {"name": "Peak 2", "bars": 8, "prog": "lift", "keys": "stab_off", "keys2": "seq16_hi", "bass": "offbeat", "drums": "four",
+     "pad": true, "shaker": true, "perc": true, "pump": {"pad": 0.6, "keys": 0.3, "keys2": 0.3},
+     "move": {"keys2.cutoff": [800, 4000]}},
+    {"name": "Drop", "bars": 4, "prog": "vamp", "keys": "stab_off", "bass": "none", "drums": "none", "pad": true,
+     "move": {"master.cutoff": [20000, 1200]}},
+    {"name": "Peak 3", "bars": 8, "prog": "lift", "keys": "stab_off", "bass": "rolling", "drums": "four", "pad": true,
+     "ride": true, "crash": true, "pump": {"pad": 0.6, "keys": 0.3}, "move": {"master.cutoff": 20000},
+     "leads": [{"inst": "ping", "melody": "hook", "at": 0, "vel": 82},
+               {"inst": "chimes", "melody": "hook", "at": 4, "vel": 62, "harmony": "below"},
+               {"inst": "ping", "melody": "hook", "at": 4, "vel": 84}]},
+    {"name": "Deep", "bars": 8, "prog": "vamp", "keys": "stab_dub", "bass": "minimal", "drums": "four_min", "pad": true,
+     "pump": {"pad": 0.6}, "move": {"keys.cutoff": [6000, 2500]}},
+    {"name": "Wind down", "bars": 8, "prog": "vamp", "keys": "stab_dub", "bass": "rolling", "drums": "four_min", "pad": true,
+     "pump": {"pad": 0.6}, "move": {"keys.cutoff": [2500, 900], "pad.level": [1, 0]}},
+    {"name": "Outro", "bars": 8, "prog": "vamp", "keys": "none", "bass": "rolling", "drums": "four_kick",
+     "move": {"master.level": [1, 0], "bass.cutoff": [6000, 600]}}
+  ]
+}

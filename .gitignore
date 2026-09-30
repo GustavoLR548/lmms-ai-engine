@@ -1,0 +1,7 @@
+# Python env that `setup` creates inside lmms-core (numpy + scipy, ~200 MB)
+.venv/
+__pycache__/
+*.pyc
+
+# skill-creator test workspaces (renders, mp3s, per-run outputs)
+*-workspace/

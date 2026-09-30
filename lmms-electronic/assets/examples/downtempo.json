@@ -1,0 +1,56 @@
+{
+  "title": "Paper Satellites",
+  "slug": "paper-satellites",
+  "style": "downtempo",
+  "bpm": 90,
+  "key": "Bb",
+  "seed": 9,
+  "palette": {"keys": "ice_rhodes", "bass": "thick_bass", "pad": "sweep_pad", "kit": "tr808", "textures": {"vinyl": -8}},
+  "progressions": {
+    "verse": ["vi9", "IVmaj9", "ii9", "V13"],
+    "hook": ["IVmaj9", "V9sus", "iii7", "vi9"],
+    "break": ["ii9", "ii9", "IVmaj9", "IVmaj9"]
+  },
+  "melodies": {
+    "motif": [
+      [0, 0, 3, "D5"], [0, 3, 3, "F5"], [0, 6, 4, "G5"], [0, 12, 4, "Bb5"],
+      [1, 0, 6, "G5"], [1, 8, 4, "F5"], [1, 12, 4, "D5"],
+      [2, 0, 3, "Eb5"], [2, 3, 3, "G5"], [2, 6, 4, "Bb5"], [2, 12, 4, "D6"],
+      [3, 0, 6, "C6"], [3, 8, 8, "A5"]
+    ],
+    "hook": [
+      [0, 0, 8, "G5"], [0, 8, 4, "Bb5"], [0, 12, 4, "D6"],
+      [1, 0, 8, "C6"], [1, 8, 8, "Bb5"],
+      [2, 0, 6, "A5"], [2, 6, 2, "F5"], [2, 8, 8, "F5"],
+      [3, 0, 12, "G5"], [3, 12, 4, "A5"]
+    ],
+    "break": [
+      [0, 0, 8, "Eb5"], [0, 8, 8, "G5"],
+      [1, 0, 16, "D5"],
+      [2, 0, 8, "F5"], [2, 8, 8, "G5"],
+      [3, 0, 16, "Bb5"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 8, "prog": "verse", "keys": "whole", "bass": "none", "drums": "none", "pad": true,
+     "move": {"master.level": [0, 1], "keys.cutoff": [700, 4000]}},
+    {"name": "Verse", "bars": 16, "prog": "verse", "keys": "hold", "bass": "downtempo", "drums": "broken",
+     "move": {"keys.cutoff": 4000},
+     "leads": [{"inst": "kalimba", "melody": "motif", "at": 4, "vel": 76}, {"inst": "kalimba", "melody": "motif", "at": 12, "vel": 80}]},
+    {"name": "Hook", "bars": 16, "prog": "hook", "keys": "sync", "bass": "downtempo", "drums": "breaks", "pad": true,
+     "crash": true,
+     "leads": [{"inst": "soft_flute", "melody": "hook", "at": 0, "vel": 80}, {"inst": "soft_flute", "melody": "hook", "at": 8, "vel": 84}]},
+    {"name": "Break", "bars": 8, "prog": "break", "keys": "sparse", "bass": "whole", "drums": "halfstep", "pad": true,
+     "move": {"pad.cutoff": [4000, 1200]},
+     "leads": [{"inst": "gs_vibes", "melody": "break", "at": 0, "vel": 74}, {"inst": "gs_vibes", "melody": "break", "at": 4, "vel": 78}]},
+    {"name": "Verse 2", "bars": 16, "prog": "verse", "keys": "seq8", "bass": "downtempo", "drums": "broken", "perc": true,
+     "move": {"pad.cutoff": 6000},
+     "leads": [{"inst": "kalimba", "melody": "motif", "at": 0, "vel": 78}, {"inst": "kalimba", "melody": "motif", "at": 8, "vel": 82}]},
+    {"name": "Hook 2", "bars": 16, "prog": "hook", "keys": "sync", "bass": "downtempo", "drums": "breaks", "pad": true,
+     "shaker": true, "riser": true,
+     "leads": [{"inst": "soft_flute", "melody": "hook", "at": 0, "vel": 84}, {"inst": "soft_flute", "melody": "hook", "at": 8, "vel": 86},
+               {"inst": "chimes", "melody": "hook", "at": 8, "vel": 60, "harmony": "below"}]},
+    {"name": "Outro", "bars": 8, "prog": "verse", "keys": "whole", "bass": "whole", "drums": "none", "pad": true,
+     "move": {"master.level": [1, 0], "keys.cutoff": [4000, 900]}}
+  ]
+}

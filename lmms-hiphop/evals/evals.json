@@ -1,0 +1,23 @@
+{
+  "skill_name": "lmms-hiphop",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "make me a sad rainy lofi hip hop track, slow, with a flute melody, around 2 and a half minutes",
+      "expected_output": "A new project folder with song.json, .mmp and an mp3 of ~2:30 at a slow tempo (68-74 BPM), minor-feeling (vi-centred) harmony, flute lead, rain texture, several distinct sections, zero harmony problems, section timestamp table in the reply.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a chill lofi beat to sit behind my youtube voiceover, nothing distracting, about 3 minutes",
+      "expected_output": "Bed-mode song (~3:00), no continuous melody (answers/bell only), calm drums, through-composed sections, mp3 + mmp, zero harmony problems.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "remake my lofi-hiphop-02 track but slower, like 74 bpm",
+      "expected_output": "Uses the slow-and-warm example (the spec port of lofi-hiphop-02) at 74 BPM, renders an mp3 ~3:40, explains that section timings moved.",
+      "files": []
+    }
+  ]
+}

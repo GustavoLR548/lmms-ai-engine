@@ -1,0 +1,58 @@
+{
+  "title": "Quiet Hours",
+  "slug": "quiet-hours",
+  "style": "focus",
+  "bpm": 86,
+  "key": "F",
+  "seed": 11,
+  "palette": {"keys": "soft_arp", "bass": "sub_bass", "pad": "soft_pad", "kit": "soft_electro", "textures": []},
+  "progressions": {
+    "home": ["Imaj9", "vi9", "IVmaj9", "IVmaj9"],
+    "away": ["ii9", "ii9", "V9sus", "V9sus", "IVmaj9", "IVmaj9", "Imaj9", "Imaj9"],
+    "drift": ["IVmaj9", "IVmaj9", "iii7", "iii7", "ii9", "ii9", "V9sus", "V9sus"]
+  },
+  "melodies": {
+    "motif": [
+      [0, 0, 6, "C6"], [0, 8, 4, "A5"], [0, 12, 4, "G5"],
+      [1, 0, 12, "A5"],
+      [2, 4, 6, "F5"], [2, 10, 6, "D5"],
+      [3, 0, 16, "F5"]
+    ],
+    "answer": [
+      [0, 0, 8, "D6"], [0, 8, 8, "C6"],
+      [1, 0, 16, "A5"],
+      [2, 0, 6, "G5"], [2, 8, 8, "F5"],
+      [3, 0, 16, "C6"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 4, "prog": "home", "keys": "none", "bass": "none", "drums": "none", "pad": true,
+     "move": {"master.level": [0.1, 1], "pad.cutoff": [500, 1500]}},
+    {"name": "Arrive", "bars": 4, "prog": "home", "keys": "seq8", "bass": "whole", "drums": "none", "pad": true,
+     "move": {"keys.cutoff": [500, 900], "bass.level": [0.2, 1], "pad.cutoff": [1500, 2500]}},
+    {"name": "Pulse", "bars": 8, "prog": "home", "keys": "seq8", "bass": "sub_pulse", "drums": "pulse_soft", "pad": true,
+     "move": {"keys.cutoff": [900, 1800]}},
+    {"name": "Pulse 2", "bars": 8, "prog": "home", "keys": "seq8", "bass": "sub_pulse", "drums": "pulse_soft", "pad": true,
+     "shaker": true, "move": {"keys.cutoff": [1800, 2800]},
+     "leads": [{"inst": "soft_hammer", "melody": "motif", "at": 4, "vel": 70}]},
+    {"name": "Flow", "bars": 8, "prog": "away", "keys": "seq8", "bass": "sub_pulse", "drums": "pulse", "pad": true,
+     "shaker": true, "move": {"keys.cutoff": [2800, 4000]}},
+    {"name": "Flow 2", "bars": 8, "prog": "away", "keys": "seq16", "bass": "sub_pulse", "drums": "pulse", "pad": true,
+     "move": {"keys.cutoff": [4000, 5000]},
+     "leads": [{"inst": "chimes", "melody": "answer", "at": 0, "vel": 66},
+               {"inst": "chimes", "melody": "answer", "at": 4, "vel": 70}]},
+    {"name": "Drift", "bars": 8, "prog": "drift", "keys": "seq_dotted", "bass": "whole", "drums": "ticks", "pad": true,
+     "move": {"keys.cutoff": [5000, 1800], "pad.level": [1, 1.2]}},
+    {"name": "Return", "bars": 8, "prog": "home", "keys": "seq8_hi", "bass": "sub_pulse", "drums": "pulse_soft", "pad": true,
+     "perc": true, "move": {"keys.cutoff": [1800, 3500], "pad.level": 1}},
+    {"name": "Return 2", "bars": 8, "prog": "home", "keys": "seq16", "bass": "sub_pulse", "drums": "pulse", "pad": true,
+     "shaker": true, "move": {"keys.cutoff": [3500, 5000]},
+     "leads": [{"inst": "soft_hammer", "melody": "motif", "at": 0, "vel": 72},
+               {"inst": "soft_hammer", "melody": "motif", "at": 4, "vel": 76},
+               {"inst": "chimes", "melody": "motif", "at": 4, "vel": 56, "harmony": "below"}]},
+    {"name": "Settle", "bars": 8, "prog": "away", "keys": "seq8", "bass": "sub_pulse", "drums": "pulse_soft", "pad": true,
+     "ride": true, "move": {"keys.cutoff": [5000, 2500]}},
+    {"name": "Outro", "bars": 8, "prog": "home", "keys": "seq8", "bass": "whole", "drums": "pulse_soft", "pad": true,
+     "move": {"master.level": [1, 0], "keys.cutoff": [2500, 900]}}
+  ]
+}

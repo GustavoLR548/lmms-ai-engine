@@ -1,0 +1,50 @@
+{
+  "title": "Low Tide Light",
+  "slug": "low-tide-light",
+  "style": "ambient",
+  "bpm": 68,
+  "key": "E",
+  "seed": 4,
+  "palette": {"keys": "glass_arp", "bass": "sub_bass", "pad": "dream_pad", "kit": "soft_electro", "textures": {"tape": -4}},
+  "progressions": {
+    "drift": ["Imaj9", "Imaj9", "IVmaj9", "IVmaj9"],
+    "tide": ["vi9", "vi9", "IVmaj9", "IVmaj9", "Imaj9", "Imaj9", "V9sus", "V9sus"],
+    "still": ["ii9", "ii9", "ii9", "ii9"]
+  },
+  "melodies": {
+    "bells": [
+      [0, 0, 8, "B5"],
+      [1, 0, 8, "F#5"], [1, 8, 8, "G#5"],
+      [2, 0, 12, "C#6"],
+      [3, 4, 12, "B5"]
+    ],
+    "tide": [
+      [0, 0, 16, "G#5"], [1, 0, 8, "E5"], [1, 8, 8, "D#5"],
+      [2, 0, 16, "E5"], [3, 0, 8, "C#5"], [3, 8, 8, "B4"],
+      [4, 0, 16, "B5"], [5, 0, 16, "G#5"],
+      [6, 0, 16, "F#5"], [7, 0, 8, "E5"], [7, 8, 8, "C#5"]
+    ],
+    "still": [
+      [0, 0, 16, "C#6"], [1, 0, 16, "A5"], [2, 0, 16, "G#5"], [3, 0, 16, "E5"]
+    ]
+  },
+  "sections": [
+    {"name": "Emerge", "bars": 12, "prog": "drift", "keys": "none", "bass": "none", "drums": "none", "pad": true,
+     "move": {"master.level": [0, 1], "pad.cutoff": [400, 3000]}},
+    {"name": "Bloom", "bars": 16, "prog": "drift", "keys": "seq_dotted", "bass": "whole", "drums": "none", "pad": true,
+     "move": {"keys.cutoff": [900, 4000], "pad.cutoff": 3000},
+     "leads": [{"inst": "chimes", "melody": "bells", "at": 4, "vel": 70}, {"inst": "chimes", "melody": "bells", "at": 12, "vel": 74}]},
+    {"name": "Tide", "bars": 16, "prog": "tide", "keys": "seq8", "bass": "whole", "drums": "ticks", "pad": true,
+     "move": {"pad.level": [1, 1.2], "keys.cutoff": 4000},
+     "leads": [{"inst": "soft_flute", "melody": "tide", "at": 0, "vel": 72}, {"inst": "soft_flute", "melody": "tide", "at": 8, "vel": 76}]},
+    {"name": "Still", "bars": 12, "prog": "still", "keys": "none", "bass": "none", "drums": "none", "pad": true,
+     "move": {"pad.cutoff": [3000, 1400], "pad.level": 1.15},
+     "leads": [{"inst": "crystal_bells", "melody": "still", "at": 4, "vel": 66}, {"inst": "crystal_bells", "melody": "still", "at": 8, "vel": 70}]},
+    {"name": "Bloom 2", "bars": 16, "prog": "drift", "keys": "seq_dotted", "bass": "sub_pulse", "drums": "pulse_soft", "pad": true,
+     "move": {"pad.cutoff": [1400, 5000], "pad.level": 1},
+     "leads": [{"inst": "chimes", "melody": "bells", "at": 0, "vel": 72}, {"inst": "chimes", "melody": "bells", "at": 8, "vel": 76},
+               {"inst": "muffled_bells", "melody": "bells", "at": 8, "vel": 56, "harmony": "below"}]},
+    {"name": "Dissolve", "bars": 12, "prog": "drift", "keys": "seq_dotted", "bass": "none", "drums": "none", "pad": true,
+     "move": {"master.level": [1, 0], "keys.cutoff": [4000, 600]}}
+  ]
+}

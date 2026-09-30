@@ -1,0 +1,66 @@
+{
+  "title": "Shutoko Nights",
+  "slug": "shutoko-nights",
+  "style": "citypop",
+  "bpm": 88,
+  "key": "E",
+  "seed": 88,
+  "palette": {"keys": "fm_epiano", "keys2": "jazz_guitar", "bass": "slap_bass", "pad": "synth_strings",
+              "kit": "drum_machine", "textures": {"tape": 0, "vinyl": -6}},
+  "progressions": {
+    "verse": ["IVmaj9", "III7alt", "vi9", "v9 I9"],
+    "chorus": ["IVmaj9", "V13", "iii7", "vi9", "ii9", "V13sus", "Imaj9", "I9"],
+    "bridge": ["bVImaj9", "v9 I9", "IVmaj9", "III7alt"]
+  },
+  "melodies": {
+    "intro": [
+      [0, 0, 2, "E5"], [0, 2, 2, "G#5"], [0, 4, 4, "B5"], [0, 8, 8, "G#5"],
+      [1, 0, 4, "A5"], [1, 4, 4, "E5"], [1, 8, 8, "C5"],
+      [2, 0, 4, "D#5"], [2, 4, 4, "E5"], [2, 8, 8, "G#5"],
+      [3, 0, 4, "F#5"], [3, 4, 4, "D5"], [3, 8, 8, "B4"]
+    ],
+    "answers": [
+      [1, 8, 2, "E5"], [1, 10, 2, "C5"], [1, 12, 4, "A4"],
+      [3, 8, 2, "D5"], [3, 10, 2, "B4"], [3, 12, 4, "G#4"],
+      [5, 8, 2, "A5"], [5, 10, 2, "E5"], [5, 12, 4, "C5"],
+      [7, 8, 2, "F#5"], [7, 10, 2, "D5"], [7, 12, 4, "B4"]
+    ],
+    "hook": [
+      [0, 0, 3, "C#5"], [0, 3, 3, "B4"], [0, 6, 4, "G#4"], [0, 10, 6, "B4"],
+      [1, 0, 3, "A4"], [1, 3, 3, "G#4"], [1, 6, 10, "F#4"],
+      [2, 0, 4, "D#5"], [2, 4, 4, "B4"], [2, 8, 8, "G#4"],
+      [3, 0, 3, "E5"], [3, 3, 3, "D#5"], [3, 6, 4, "B4"], [3, 10, 6, "G#4"],
+      [4, 0, 4, "A4"], [4, 4, 4, "C#5"], [4, 8, 8, "E5"],
+      [5, 0, 3, "E5"], [5, 3, 3, "C#5"], [5, 6, 10, "B4"],
+      [6, 0, 4, "G#4"], [6, 4, 4, "B4"], [6, 8, 8, "D#5"],
+      [7, 0, 4, "D5"], [7, 4, 4, "B4"], [7, 8, 8, "G#4"]
+    ],
+    "bridge": [
+      [0, 0, 6, "G4"], [0, 6, 2, "B4"], [0, 8, 8, "D5"],
+      [1, 0, 4, "C#5"], [1, 4, 4, "A4"], [1, 8, 4, "G#4"], [1, 12, 4, "B4"],
+      [2, 0, 8, "C#5"], [2, 8, 8, "B4"],
+      [3, 0, 4, "C5"], [3, 4, 4, "A4"], [3, 8, 8, "G#4"],
+      [4, 0, 6, "E5"], [4, 6, 2, "D5"], [4, 8, 8, "B4"],
+      [5, 0, 4, "A4"], [5, 4, 4, "F#4"], [5, 8, 4, "G#4"], [5, 12, 4, "D5"],
+      [6, 0, 4, "C#5"], [6, 4, 4, "E5"], [6, 8, 8, "C#5"],
+      [7, 0, 6, "C5"], [7, 6, 2, "A4"], [7, 8, 8, "G#4"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 4, "prog": "verse", "keys": "whole", "bass": "none", "drums": "intro", "pad": true,
+     "leads": [{"inst": "square_lead", "melody": "intro", "vel": 70}]},
+    {"name": "Verse 1", "bars": 8, "prog": "verse", "keys": "push", "keys2": "cutting", "bass": "slap", "drums": "citypop",
+     "fill": "toms"},
+    {"name": "Chorus 1", "bars": 8, "prog": "chorus", "keys": "hold", "keys2": "offbeat", "bass": "octaves",
+     "drums": "citypop", "pad": true, "crash": true, "leads": [{"inst": "tenor_sax", "melody": "hook", "vel": 84}]},
+    {"name": "Verse 2", "bars": 8, "prog": "verse", "keys": "sync", "keys2": "cutting", "bass": "slap", "drums": "citypop",
+     "leads": [{"inst": "square_lead", "melody": "answers", "vel": 66}]},
+    {"name": "Bridge", "bars": 8, "prog": "bridge", "keys": "whole", "bass": "whole", "drums": "halftime", "pad": true,
+     "leads": [{"inst": "tenor_sax", "melody": "bridge", "vel": 80}]},
+    {"name": "Chorus 2", "bars": 8, "prog": "chorus", "keys": "hold", "keys2": "cutting", "bass": "octaves",
+     "drums": "disco", "pad": true, "crash": true, "riser": true,
+     "leads": [{"inst": "tenor_sax", "melody": "hook", "vel": 88, "harmony": "below"}]},
+    {"name": "Outro", "bars": 8, "prog": "verse", "keys": "whole", "bass": "kick_lock", "drums": "fade_out", "pad": true,
+     "leads": [{"inst": "square_lead", "melody": "intro", "vel": 62}]}
+  ]
+}

@@ -1,0 +1,1130 @@
+{
+ "instruments": {
+  "dx_rhodes": {
+   "vol": 172,
+   "octave": 12,
+   "measured": true,
+   "cents": 0,
+   "lufs": -21.8
+  },
+  "fm_rhodes": {
+   "vol": 86,
+   "octave": 12,
+   "measured": true,
+   "cents": 1,
+   "lufs": -15.8
+  },
+  "soft_piano": {
+   "vol": 133,
+   "octave": 0,
+   "measured": true,
+   "cents": 2,
+   "lufs": -19.6
+  },
+  "vibraphone": {
+   "vol": 71,
+   "octave": 12,
+   "measured": true,
+   "cents": 7,
+   "lufs": -22.8
+  },
+  "dark_strings": {
+   "vol": 35,
+   "octave": 12,
+   "measured": true,
+   "cents": -8,
+   "lufs": -16.6
+  },
+  "upright_piano": {
+   "vol": 79,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -15.1
+  },
+  "grand_piano": {
+   "vol": 95,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -16.7
+  },
+  "tine_ep": {
+   "vol": 91,
+   "octave": 0,
+   "measured": true,
+   "cents": -2,
+   "lufs": -16.3
+  },
+  "chorus_ep": {
+   "vol": 81,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -15.3
+  },
+  "fm_epiano": {
+   "vol": 59,
+   "octave": 0,
+   "measured": true,
+   "cents": -1,
+   "lufs": -12.5
+  },
+  "drawbar_organ": {
+   "vol": 48,
+   "octave": 12,
+   "measured": true,
+   "cents": -2,
+   "lufs": -10.8
+  },
+  "clavinet": {
+   "vol": 94,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -16.6
+  },
+  "nylon_guitar": {
+   "vol": 90,
+   "octave": 0,
+   "measured": true,
+   "cents": 2,
+   "lufs": -16.2
+  },
+  "jazz_guitar": {
+   "vol": 68,
+   "octave": 0,
+   "measured": true,
+   "cents": -1,
+   "lufs": -13.7
+  },
+  "muted_guitar": {
+   "vol": 100,
+   "octave": 0,
+   "measured": true,
+   "cents": -10,
+   "lufs": -21.4,
+   "gain": 1.64
+  },
+  "tenor_sax": {
+   "vol": 27,
+   "octave": 0,
+   "measured": true,
+   "cents": -1,
+   "lufs": -14.3
+  },
+  "kalimba": {
+   "vol": 121,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -27.5
+  },
+  "piano_lead": {
+   "vol": 35,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -16.8
+  },
+  "muted_trumpet": {
+   "vol": 42,
+   "octave": 0,
+   "measured": true,
+   "cents": 4,
+   "lufs": -18.3
+  },
+  "gs_vibes": {
+   "vol": 42,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -18.3
+  },
+  "music_box": {
+   "vol": 141,
+   "octave": 0,
+   "measured": true,
+   "cents": -8,
+   "lufs": -28.8
+  },
+  "marimba": {
+   "vol": 50,
+   "octave": 0,
+   "measured": true,
+   "cents": 6,
+   "lufs": -19.8
+  },
+  "gs_flute": {
+   "vol": 28,
+   "octave": 0,
+   "measured": true,
+   "cents": 4,
+   "lufs": -14.9
+  },
+  "square_lead": {
+   "vol": 47,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -19.3
+  },
+  "synth_strings": {
+   "vol": 17,
+   "octave": 0,
+   "measured": true,
+   "cents": -5,
+   "lufs": -10.3
+  },
+  "strings": {
+   "vol": 26,
+   "octave": 0,
+   "measured": true,
+   "cents": -13,
+   "lufs": -13.9
+  },
+  "warm_pad": {
+   "vol": 31,
+   "octave": 0,
+   "measured": true,
+   "cents": -1,
+   "lufs": -15.5
+  },
+  "upright_bass": {
+   "vol": 87,
+   "octave": 0,
+   "measured": true,
+   "cents": -23,
+   "lufs": -18.6
+  },
+  "finger_bass": {
+   "vol": 77,
+   "octave": 0,
+   "measured": true,
+   "cents": -7,
+   "lufs": -17.5
+  },
+  "slap_bass": {
+   "vol": 107,
+   "octave": 0,
+   "measured": true,
+   "cents": 4,
+   "lufs": -20.4
+  },
+  "fretless_bass": {
+   "vol": 57,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -14.9
+  },
+  "lately_bass": {
+   "vol": 65,
+   "octave": 0,
+   "measured": true,
+   "cents": 2,
+   "lufs": -16.1
+  },
+  "harp": {
+   "vol": 93,
+   "octave": 0,
+   "measured": true,
+   "cents": -1,
+   "lufs": -16.8
+  },
+  "pizz_strings": {
+   "vol": 120,
+   "octave": 0,
+   "measured": true,
+   "cents": -11,
+   "lufs": -19.0
+  },
+  "orch_strings": {
+   "vol": 27,
+   "octave": 0,
+   "measured": true,
+   "cents": -13,
+   "lufs": -13.7
+  },
+  "choir": {
+   "vol": 24,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -12.9
+  },
+  "harpsichord": {
+   "vol": 100,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -25.4,
+   "gain": 2.51
+  },
+  "accordion": {
+   "vol": 65,
+   "octave": 0,
+   "measured": true,
+   "cents": -3,
+   "lufs": -13.7
+  },
+  "acoustic_guitar": {
+   "vol": 100,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -22.4,
+   "gain": 1.78
+  },
+  "dist_guitar": {
+   "vol": 36,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -8.5
+  },
+  "glockenspiel": {
+   "vol": 60,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -21.4
+  },
+  "celesta": {
+   "vol": 68,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -22.5
+  },
+  "xylophone": {
+   "vol": 82,
+   "octave": 0,
+   "measured": true,
+   "cents": 8,
+   "lufs": -24.1
+  },
+  "tubular_bells": {
+   "vol": 43,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -18.4,
+   "octave_note": "measured -12 (weak fundamental fools the detector); bells are heard at the written pitch"
+  },
+  "trumpet": {
+   "vol": 34,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -16.4
+  },
+  "french_horns": {
+   "vol": 25,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -13.9
+  },
+  "brass_section": {
+   "vol": 37,
+   "octave": 0,
+   "measured": true,
+   "cents": 14,
+   "lufs": -17.2
+  },
+  "synth_brass": {
+   "vol": 58,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -21.1
+  },
+  "oboe": {
+   "vol": 27,
+   "octave": 0,
+   "measured": true,
+   "cents": 1,
+   "lufs": -14.6
+  },
+  "clarinet": {
+   "vol": 32,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -15.8
+  },
+  "piccolo": {
+   "vol": 35,
+   "octave": 0,
+   "measured": true,
+   "cents": 11,
+   "lufs": -16.8
+  },
+  "recorder": {
+   "vol": 36,
+   "octave": 0,
+   "measured": true,
+   "cents": 16,
+   "lufs": -17.0
+  },
+  "pan_flute": {
+   "vol": 42,
+   "octave": 0,
+   "measured": true,
+   "cents": 6,
+   "lufs": -18.2
+  },
+  "ocarina": {
+   "vol": 29,
+   "octave": 0,
+   "measured": true,
+   "cents": 4,
+   "lufs": -15.1
+  },
+  "saw_lead": {
+   "vol": 64,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -22.0
+  },
+  "contrabass": {
+   "vol": 79,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -17.8
+  },
+  "tuba": {
+   "vol": 89,
+   "octave": 0,
+   "measured": true,
+   "cents": -1,
+   "lufs": -18.8
+  },
+  "synth_bass": {
+   "vol": 70,
+   "octave": 0,
+   "measured": true,
+   "cents": -2,
+   "lufs": -16.7
+  },
+  "opl_brass": {
+   "vol": 26,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -14.0
+  },
+  "opl_epiano": {
+   "vol": 43,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -10.0
+  },
+  "opl_bells": {
+   "vol": 35,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -16.6
+  },
+  "opl_harp": {
+   "vol": 69,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -14.2
+  },
+  "opl_organ": {
+   "vol": 29,
+   "octave": 0,
+   "measured": true,
+   "cents": -3,
+   "lufs": -6.7
+  },
+  "opl_clarinet": {
+   "vol": 23,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -13.2
+  },
+  "opl_pad": {
+   "vol": 25,
+   "octave": 0,
+   "measured": true,
+   "cents": 2,
+   "lufs": -13.1
+  },
+  "opl_square": {
+   "vol": 22,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -12.5
+  },
+  "opl_vibes": {
+   "vol": 31,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -15.5
+  },
+  "opl_synth": {
+   "vol": 35,
+   "octave": 0,
+   "measured": true,
+   "cents": -3,
+   "lufs": -8.4
+  },
+  "opl_bass": {
+   "vol": 71,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -16.8
+  },
+  "opl_lead": {
+   "vol": 30,
+   "octave": 0,
+   "measured": true,
+   "cents": 3,
+   "lufs": -15.4
+  },
+  "soft_pad": {
+   "vol": 40,
+   "octave": 12,
+   "measured": true,
+   "cents": 0,
+   "lufs": -17.7
+  },
+  "ice_pad": {
+   "vol": 67,
+   "octave": 12,
+   "measured": true,
+   "cents": -5,
+   "lufs": -22.1
+  },
+  "sweep_pad": {
+   "vol": 40,
+   "octave": 12,
+   "measured": true,
+   "cents": 5,
+   "lufs": -17.7
+  },
+  "dream_pad": {
+   "vol": 38,
+   "octave": 0,
+   "measured": true,
+   "cents": 9,
+   "lufs": -17.3
+  },
+  "void_pad": {
+   "vol": 30,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -15.3
+  },
+  "analog_pad": {
+   "vol": 46,
+   "octave": 12,
+   "measured": true,
+   "cents": 0,
+   "lufs": -18.8
+  },
+  "space_choir": {
+   "vol": 30,
+   "octave": 12,
+   "measured": true,
+   "cents": -20,
+   "lufs": -15.3
+  },
+  "ethereal_pad": {
+   "vol": 26,
+   "octave": 12,
+   "measured": true,
+   "cents": 0,
+   "lufs": -13.8
+  },
+  "hi_pad": {
+   "vol": 12,
+   "octave": 0,
+   "measured": true,
+   "cents": 36,
+   "lufs": -7.2
+  },
+  "wind": {
+   "vol": 67,
+   "octave": -12,
+   "measured": true,
+   "cents": -100,
+   "lufs": -22.2
+  },
+  "house_pluck": {
+   "vol": 143,
+   "octave": 12,
+   "measured": true,
+   "cents": -5,
+   "lufs": -20.2
+  },
+  "soft_arp": {
+   "vol": 115,
+   "octave": 12,
+   "measured": true,
+   "cents": 16,
+   "lufs": -18.3
+  },
+  "glass_arp": {
+   "vol": 56,
+   "octave": 12,
+   "measured": true,
+   "cents": 10,
+   "lufs": -12.1
+  },
+  "pluck_arp": {
+   "vol": 26,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -5.4,
+   "octave_note": "measured -12 (weak fundamental, loud 2nd harmonic); the waveform period and the ear say the written pitch"
+  },
+  "ping": {
+   "vol": 50,
+   "octave": 12,
+   "measured": true,
+   "cents": -13,
+   "lufs": -11.0
+  },
+  "pluck": {
+   "vol": 132,
+   "octave": 12,
+   "measured": true,
+   "cents": 2,
+   "lufs": -19.5
+  },
+  "ice_rhodes": {
+   "vol": 162,
+   "octave": 12,
+   "measured": true,
+   "cents": -4,
+   "lufs": -21.3
+  },
+  "chimes": {
+   "vol": 80,
+   "octave": 12,
+   "measured": true,
+   "cents": -3,
+   "lufs": -23.9
+  },
+  "soft_hammer": {
+   "vol": 58,
+   "octave": 12,
+   "measured": true,
+   "cents": -6,
+   "lufs": -21.1
+  },
+  "muffled_bells": {
+   "vol": 70,
+   "octave": 12,
+   "measured": true,
+   "cents": -5,
+   "lufs": -22.7
+  },
+  "crystal_bells": {
+   "vol": 99,
+   "octave": 0,
+   "measured": true,
+   "cents": -5,
+   "lufs": -25.7
+  },
+  "analog_bell": {
+   "vol": 21,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -12.3
+  },
+  "soft_flute": {
+   "vol": 92,
+   "octave": 12,
+   "measured": true,
+   "cents": 0,
+   "lufs": -25.1
+  },
+  "sub_bass": {
+   "vol": 19,
+   "octave": 0,
+   "measured": true,
+   "cents": 0,
+   "lufs": -5.5
+  },
+  "decay_bass": {
+   "vol": 86,
+   "octave": 12,
+   "measured": true,
+   "cents": 0,
+   "lufs": -18.5
+  },
+  "analog_bass": {
+   "vol": 214,
+   "octave": 12,
+   "measured": true,
+   "cents": -7,
+   "lufs": -26.4
+  },
+  "thick_bass": {
+   "vol": 150,
+   "octave": 24,
+   "measured": true,
+   "cents": 0,
+   "lufs": -23.3
+  },
+  "pluck_bass": {
+   "vol": 68,
+   "octave": 0,
+   "measured": true,
+   "cents": -1,
+   "lufs": -16.4
+  },
+  "reso_bass": {
+   "vol": 38,
+   "octave": 12,
+   "measured": true,
+   "cents": 1,
+   "lufs": -11.4
+  },
+  "acid_bass": {
+   "vol": 51,
+   "octave": 0,
+   "measured": true,
+   "cents": -3,
+   "lufs": -13.9,
+   "octave_note": "measured -12 (weak fundamental, loud 2nd harmonic); the waveform period and the ear say the written pitch"
+  }
+ },
+ "kits": {
+  "brushes": {
+   "kick": {
+    "vol": 108
+   },
+   "snare": {
+    "vol": 100,
+    "gain": 1.63
+   },
+   "brush_swirl": {
+    "vol": 100,
+    "gain": 2.64
+   },
+   "sidestick": {
+    "vol": 135
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 3.32
+   },
+   "pedal_hat": {
+    "vol": 100,
+    "gain": 2.43
+   },
+   "open_hat": {
+    "vol": 158
+   },
+   "ride": {
+    "vol": 100,
+    "gain": 3.65
+   },
+   "crash": {
+    "vol": 25
+   },
+   "shaker": {
+    "vol": 100,
+    "gain": 2.75
+   },
+   "tom_hi": {
+    "vol": 118
+   },
+   "tom_lo": {
+    "vol": 130
+   }
+  },
+  "latin": {
+   "kick": {
+    "vol": 108
+   },
+   "snare": {
+    "vol": 100,
+    "gain": 1.63
+   },
+   "sidestick": {
+    "vol": 135
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 3.32
+   },
+   "open_hat": {
+    "vol": 158
+   },
+   "ride": {
+    "vol": 100,
+    "gain": 3.65
+   },
+   "crash": {
+    "vol": 25
+   },
+   "shaker": {
+    "vol": 76
+   },
+   "conga_hi": {
+    "vol": 60
+   },
+   "conga_lo": {
+    "vol": 74
+   },
+   "conga_mute": {
+    "vol": 62
+   },
+   "bongo_hi": {
+    "vol": 69
+   },
+   "bongo_lo": {
+    "vol": 78
+   },
+   "claves": {
+    "vol": 83
+   },
+   "tambourine": {
+    "vol": 92
+   }
+  },
+  "drum_machine": {
+   "kick": {
+    "vol": 149
+   },
+   "snare": {
+    "vol": 100,
+    "gain": 1.69
+   },
+   "clap": {
+    "vol": 73
+   },
+   "sidestick": {
+    "vol": 103
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 1.91
+   },
+   "open_hat": {
+    "vol": 55
+   },
+   "crash": {
+    "vol": 48
+   },
+   "ride": {
+    "vol": 46
+   },
+   "shaker": {
+    "vol": 155
+   },
+   "tom_hi": {
+    "vol": 43
+   },
+   "tom_lo": {
+    "vol": 52
+   }
+  },
+  "dilla": {
+   "kick": {
+    "vol": 54
+   },
+   "snare": {
+    "vol": 59
+   },
+   "clap": {
+    "vol": 29
+   },
+   "hat": {
+    "vol": 176
+   },
+   "open_hat": {
+    "vol": 62
+   },
+   "sidestick": {
+    "vol": 41
+   },
+   "shaker": {
+    "vol": 188
+   },
+   "ride": {
+    "vol": 33
+   },
+   "crash": {
+    "vol": 49
+   }
+  },
+  "gs_standard": {
+   "kick": {
+    "vol": 101
+   },
+   "snare": {
+    "vol": 70
+   },
+   "sidestick": {
+    "vol": 93
+   },
+   "clap": {
+    "vol": 55
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 3.32
+   },
+   "pedal_hat": {
+    "vol": 100,
+    "gain": 2.43
+   },
+   "open_hat": {
+    "vol": 158
+   },
+   "crash": {
+    "vol": 25
+   },
+   "ride": {
+    "vol": 100,
+    "gain": 3.65
+   },
+   "tom_hi": {
+    "vol": 59
+   },
+   "tom_lo": {
+    "vol": 79
+   },
+   "tambourine": {
+    "vol": 141
+   },
+   "shaker": {
+    "vol": 100,
+    "gain": 2.16
+   }
+  },
+  "gs_power": {
+   "kick": {
+    "vol": 91
+   },
+   "snare": {
+    "vol": 59
+   },
+   "sidestick": {
+    "vol": 89
+   },
+   "clap": {
+    "vol": 55
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 3.14
+   },
+   "pedal_hat": {
+    "vol": 100,
+    "gain": 2.27
+   },
+   "open_hat": {
+    "vol": 151
+   },
+   "crash": {
+    "vol": 25
+   },
+   "ride": {
+    "vol": 100,
+    "gain": 3.65
+   },
+   "tom_hi": {
+    "vol": 43
+   },
+   "tom_lo": {
+    "vol": 53
+   },
+   "tambourine": {
+    "vol": 141
+   },
+   "shaker": {
+    "vol": 100,
+    "gain": 2.16
+   }
+  },
+  "gs_orchestral": {
+   "kick": {
+    "vol": 115
+   },
+   "snare": {
+    "vol": 82
+   },
+   "sidestick": {
+    "vol": 93
+   },
+   "claves": {
+    "vol": 100,
+    "gain": 2.3
+   },
+   "tom_lo": {
+    "vol": 59
+   },
+   "tom_hi": {
+    "vol": 61
+   },
+   "crash": {
+    "vol": 26
+   },
+   "tambourine": {
+    "vol": 141
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 3.32
+   },
+   "pedal_hat": {
+    "vol": 100,
+    "gain": 2.43
+   },
+   "open_hat": {
+    "vol": 158
+   },
+   "ride": {
+    "vol": 100,
+    "gain": 4.49
+   }
+  },
+  "tr808": {
+   "kick": {
+    "vol": 147
+   },
+   "snare": {
+    "vol": 137
+   },
+   "clap": {
+    "vol": 83
+   },
+   "sidestick": {
+    "vol": 100,
+    "gain": 1.96
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 5.0
+   },
+   "pedal_hat": {
+    "vol": 100,
+    "gain": 3.25
+   },
+   "open_hat": {
+    "vol": 123
+   },
+   "crash": {
+    "vol": 62
+   },
+   "ride": {
+    "vol": 115
+   },
+   "claves": {
+    "vol": 41
+   },
+   "tom_hi": {
+    "vol": 15
+   },
+   "tom_lo": {
+    "vol": 24
+   },
+   "shaker": {
+    "vol": 76
+   },
+   "tambourine": {
+    "vol": 141
+   }
+  },
+  "tr909": {
+   "kick": {
+    "vol": 112
+   },
+   "snare": {
+    "vol": 82
+   },
+   "clap": {
+    "vol": 40
+   },
+   "sidestick": {
+    "vol": 59
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 3.95
+   },
+   "pedal_hat": {
+    "vol": 76
+   },
+   "open_hat": {
+    "vol": 158
+   },
+   "crash": {
+    "vol": 25
+   },
+   "ride": {
+    "vol": 100,
+    "gain": 3.65
+   },
+   "tom_hi": {
+    "vol": 17
+   },
+   "tom_lo": {
+    "vol": 21
+   },
+   "shaker": {
+    "vol": 76
+   },
+   "tambourine": {
+    "vol": 141
+   }
+  },
+  "soft_electro": {
+   "kick": {
+    "vol": 85
+   },
+   "snare": {
+    "vol": 77
+   },
+   "clap": {
+    "vol": 30
+   },
+   "sidestick": {
+    "vol": 59
+   },
+   "hat": {
+    "vol": 100,
+    "gain": 2.64
+   },
+   "open_hat": {
+    "vol": 128
+   },
+   "ride": {
+    "vol": 122
+   },
+   "claves": {
+    "vol": 41
+   },
+   "shaker": {
+    "vol": 76
+   },
+   "crash": {
+    "vol": 62
+   }
+  }
+ },
+ "textures": {
+  "tape": 3
+ }
+}

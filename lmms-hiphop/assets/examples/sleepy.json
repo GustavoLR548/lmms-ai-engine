@@ -1,0 +1,59 @@
+{
+  "title": "Paper Lanterns",
+  "slug": "paper-lanterns",
+  "style": "sleepy",
+  "bpm": 62,
+  "key": "Db",
+  "seed": 5,
+  "palette": {"keys": "upright_piano", "bass": "upright_bass", "pad": "strings", "kit": "brushes",
+              "textures": {"vinyl": -3, "tape": 0}},
+  "progressions": {
+    "intro": ["Imaj9", "IVmaj9", "Imaj9", "IVmaj9"],
+    "a": ["Imaj9", "iii7", "vi9", "IVmaj9", "Imaj9", "iii7", "IVmaj9", "iv6"],
+    "b": ["vi9", "iii7", "IVmaj9", "Imaj9", "ii9", "iii7", "IVmaj9", "V13sus"],
+    "coda": ["IVmaj9", "iv6", "Imaj9", "Imaj9"]
+  },
+  "melodies": {
+    "theme": [
+      [0, 0, 6, "F5"], [0, 6, 2, "Eb5"], [0, 8, 4, "Db5"], [0, 12, 4, "Ab4"],
+      [1, 0, 8, "C5"], [1, 8, 4, "Eb5"], [1, 12, 4, "F5"],
+      [2, 0, 8, "F5"], [2, 8, 8, "Db5"],
+      [3, 0, 4, "Db5"], [3, 4, 4, "Eb5"], [3, 8, 8, "F5"],
+      [4, 0, 6, "Ab5"], [4, 6, 2, "F5"], [4, 8, 8, "Eb5"],
+      [5, 0, 6, "C5"], [5, 6, 2, "Eb5"], [5, 8, 4, "C5"], [5, 12, 4, "Ab4"],
+      [6, 0, 8, "Bb4"], [6, 8, 8, "Db5"],
+      [7, 0, 8, "A4"], [7, 8, 8, "Ab4"]
+    ],
+    "theme2": [
+      [0, 0, 4, "F5"], [0, 4, 4, "Ab5"], [0, 8, 4, "F5"], [0, 12, 4, "Eb5"],
+      [1, 0, 12, "C5"], [1, 12, 4, "Eb5"],
+      [2, 0, 6, "Db5"], [2, 6, 2, "C5"], [2, 8, 8, "Bb4"],
+      [3, 0, 4, "Db5"], [3, 4, 4, "F5"], [3, 8, 8, "Ab5"],
+      [4, 0, 4, "Ab5"], [4, 4, 4, "Bb5"], [4, 8, 4, "Ab5"], [4, 12, 4, "F5"],
+      [5, 0, 8, "Eb5"], [5, 8, 8, "C5"],
+      [6, 0, 8, "Db5"], [6, 8, 8, "Bb4"],
+      [7, 0, 6, "A4"], [7, 6, 10, "Ab4"]
+    ],
+    "kalimba": [
+      [0, 8, 2, "Db5"], [0, 10, 2, "F5"], [0, 12, 4, "Ab5"],
+      [2, 8, 2, "Bb4"], [2, 10, 2, "Db5"], [2, 12, 4, "F5"],
+      [3, 4, 4, "C5"], [3, 8, 8, "Ab4"],
+      [4, 8, 2, "Gb5"], [4, 10, 2, "F5"], [4, 12, 4, "Db5"],
+      [5, 8, 4, "C5"], [5, 12, 4, "Eb5"],
+      [6, 8, 2, "F5"], [6, 10, 2, "Db5"], [6, 12, 4, "Bb4"],
+      [7, 0, 4, "Db5"], [7, 4, 4, "Eb5"], [7, 8, 8, "F5"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 4, "prog": "intro", "keys": "rolled", "bass": "none", "drums": "none"},
+    {"name": "Theme", "bars": 8, "prog": "a", "keys": "broken", "bass": "none", "drums": "none",
+     "leads": [{"inst": "piano_lead", "melody": "theme", "vel": 72}]},
+    {"name": "Theme 2", "bars": 8, "prog": "a", "keys": "rolled_half", "bass": "whole", "drums": "brushes_light",
+     "leads": [{"inst": "piano_lead", "melody": "theme2", "vel": 74}]},
+    {"name": "Bridge", "bars": 8, "prog": "b", "keys": "rolled", "bass": "halftime", "drums": "brushes", "pad": true,
+     "leads": [{"inst": "kalimba", "melody": "kalimba", "vel": 70}]},
+    {"name": "Reprise", "bars": 8, "prog": "a", "keys": "broken", "bass": "whole", "drums": "brushes_light",
+     "leads": [{"inst": "piano_lead", "melody": "theme", "vel": 68}]},
+    {"name": "Coda", "bars": 4, "prog": "coda", "keys": "rolled", "bass": "none", "drums": "none", "pad": true}
+  ]
+}

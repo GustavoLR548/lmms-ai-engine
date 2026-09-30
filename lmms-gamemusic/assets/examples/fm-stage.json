@@ -1,0 +1,65 @@
+{
+  "title": "Neon Highway",
+  "slug": "neon-highway",
+  "style": "fm",
+  "bpm": 152,
+  "key": "G",
+  "seed": 3,
+  "loop": {"from": "A"},
+  "palette": {"keys": "opl_epiano", "keys2": "opl_harp", "bass": "opl_bass", "pad": "opl_pad", "kit": "gs_power"},
+  "progressions": {
+    "intro": ["vi", "vi", "IV", "V"],
+    "a": ["vi", "IV", "V", "vi", "vi", "IV", "V", "III7"],
+    "b": ["IV", "V", "iii", "vi", "ii", "iii", "IV", "V"],
+    "c": ["ii", "ii", "iii", "iii", "IV", "IV", "V", "III7"]
+  },
+  "melodies": {
+    "intro": [
+      [2, 0, 4, "E5"], [2, 4, 4, "G5"], [2, 8, 8, "C6"],
+      [3, 0, 4, "A5"], [3, 4, 4, "F#5"], [3, 8, 8, "D5"]
+    ],
+    "a": [
+      [0, 0, 2, "E5"], [0, 2, 2, "B4"], [0, 4, 2, "E5"], [0, 6, 2, "F#5"], [0, 8, 6, "G5"], [0, 14, 2, "F#5"],
+      [1, 0, 6, "E5"], [1, 6, 2, "D5"], [1, 8, 4, "C5"], [1, 12, 4, "E5"],
+      [2, 0, 6, "F#5"], [2, 6, 2, "E5"], [2, 8, 4, "D5"], [2, 12, 4, "A5"],
+      [3, 0, 8, "G5"], [3, 8, 4, "B5"], [3, 12, 4, "G5"],
+      [4, 0, 2, "E5"], [4, 2, 2, "B4"], [4, 4, 2, "E5"], [4, 6, 2, "F#5"], [4, 8, 6, "G5"], [4, 14, 2, "A5"],
+      [5, 0, 6, "C6"], [5, 6, 2, "B5"], [5, 8, 4, "G5"], [5, 12, 4, "E5"],
+      [6, 0, 6, "A5"], [6, 6, 2, "G5"], [6, 8, 4, "F#5"], [6, 12, 4, "D5"],
+      [7, 0, 4, "D#5"], [7, 4, 4, "F#5"], [7, 8, 4, "A5"], [7, 12, 4, "B5"]
+    ],
+    "b": [
+      [0, 0, 8, "G5"], [0, 8, 4, "E5"], [0, 12, 4, "C5"],
+      [1, 0, 8, "A5"], [1, 8, 4, "F#5"], [1, 12, 4, "D5"],
+      [2, 0, 8, "D5"], [2, 8, 4, "F#5"], [2, 12, 4, "B5"],
+      [3, 0, 12, "B5"], [3, 12, 4, "G5"],
+      [4, 0, 8, "C6"], [4, 8, 4, "A5"], [4, 12, 4, "E5"],
+      [5, 0, 8, "D6"], [5, 8, 4, "B5"], [5, 12, 4, "F#5"],
+      [6, 0, 6, "E6"], [6, 6, 2, "D6"], [6, 8, 8, "C6"],
+      [7, 0, 8, "D6"], [7, 8, 4, "A5"], [7, 12, 4, "F#5"]
+    ],
+    "c": [
+      [0, 0, 8, "E5"], [0, 8, 8, "A5"],
+      [1, 0, 12, "C6"], [1, 12, 4, "A5"],
+      [2, 0, 8, "D6"], [2, 8, 8, "B5"],
+      [3, 0, 12, "F#5"], [3, 12, 4, "D5"],
+      [4, 0, 8, "E5"], [4, 8, 8, "G5"],
+      [5, 0, 12, "C6"], [5, 12, 4, "G5"],
+      [6, 0, 8, "A5"], [6, 8, 8, "F#5"],
+      [7, 0, 8, "D#5"], [7, 8, 8, "F#5"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 4, "prog": "intro", "keys": "brass_hits", "bass": "drive8", "drums": "halftime",
+     "fill": "build", "leads": [{"inst": "opl_brass", "melody": "intro", "vel": 84}]},
+    {"name": "A", "bars": 8, "prog": "a", "keys": "stabs8", "bass": "octaves", "drums": "fm_rock", "crash": true,
+     "leads": [{"inst": "opl_lead", "melody": "a", "vel": 86}]},
+    {"name": "B", "bars": 8, "prog": "b", "keys": "arp16", "bass": "funk16", "drums": "fm_rock", "pad": true,
+     "leads": [{"inst": "opl_brass", "melody": "b", "vel": 82, "transpose": -12}]},
+    {"name": "A2", "bars": 8, "prog": "a", "keys": "stabs8", "keys2": "arp16", "bass": "octaves", "drums": "battle",
+     "crash": true, "leads": [{"inst": "opl_lead", "melody": "a", "vel": 88},
+                              {"inst": "opl_square", "melody": "a", "vel": 66, "harmony": "below"}]},
+    {"name": "C", "bars": 8, "prog": "c", "keys": "whole", "keys2": "arp16", "bass": "drive8", "drums": "halftime",
+     "pad": true, "fill": "build", "leads": [{"inst": "opl_bells", "melody": "c", "vel": 80}]}
+  ]
+}

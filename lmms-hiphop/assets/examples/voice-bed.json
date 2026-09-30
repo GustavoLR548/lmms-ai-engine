@@ -1,0 +1,41 @@
+{
+  "title": "Voiceover Bed 01",
+  "slug": "voiceover-bed-01",
+  "bpm": 76,
+  "key": "F",
+  "swing": 3,
+  "seed": 9,
+  "mode": "bed",
+  "palette": {"keys": "rhodes", "bass": "warm_sine", "pad": "soft_saw_pad", "kit": "dusty", "textures": ["vinyl"]},
+  "progressions": {
+    "a": ["Imaj9", "vi9", "ii9", "V13sus"],
+    "b": ["IVmaj9", "iii7", "vi9", "ii9 V13"],
+    "bridge": ["bVIImaj9", "IVmaj9", "iv6", "V13sus"],
+    "outro": ["Imaj9", "vi9", "Imaj9", "Imaj9"]
+  },
+  "melodies": {
+    "answers": [
+      [3, 8, 2, "5"], [3, 10, 2, "3"], [3, 12, 4, "2"],
+      [7, 8, 2, "3"], [7, 10, 2, "2"], [7, 12, 4, "7,"]
+    ],
+    "answers2": [
+      [1, 10, 2, "3"], [1, 12, 4, "5,"],
+      [3, 8, 2, "6"], [3, 10, 2, "5"], [3, 12, 4, "3"],
+      [5, 10, 2, "3"], [5, 12, 4, "5,"],
+      [7, 8, 2, "2"], [7, 10, 2, "3"], [7, 12, 4, "7,"]
+    ]
+  },
+  "sections": [
+    {"name": "Intro", "bars": 4, "prog": "a", "keys": "filtered", "bass": "none", "drums": "intro"},
+    {"name": "A1", "bars": 8, "prog": "a", "keys": "hold", "bass": "kick_lock", "drums": "boombap", "riser": true},
+    {"name": "B1", "bars": 8, "prog": "b", "keys": "sync", "bass": "hook", "drums": "boombap", "crash": true,
+     "fill": "pickup", "leads": [{"inst": "bell", "melody": "answers", "vel": 70}]},
+    {"name": "A2", "bars": 8, "prog": "a", "keys": "sparse", "bass": "walk", "drums": "boombap_ghost", "fill": "stop"},
+    {"name": "Bridge", "bars": 8, "prog": "bridge", "keys": "arp", "bass": "halftime", "drums": "halftime", "pad": true,
+     "fill": "build"},
+    {"name": "B2", "bars": 8, "prog": "b", "keys": "hold", "bass": "hook", "drums": "boombap", "shaker": true, "pad": true,
+     "crash": true, "riser": true, "leads": [{"inst": "bell", "melody": "answers2", "vel": 72}]},
+    {"name": "A3", "bars": 8, "prog": "a", "keys": "whole", "bass": "kick_lock", "drums": "boombap", "fill": "pickup"},
+    {"name": "Outro", "bars": 4, "prog": "outro", "keys": "filtered", "bass": "whole", "drums": "fade_out"}
+  ]
+}

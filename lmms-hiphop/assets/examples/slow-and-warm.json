@@ -1,0 +1,308 @@
+{
+  "title": "Slow And Warm",
+  "slug": "slow-and-warm",
+  "bpm": 74,
+  "key": "Eb",
+  "swing": 3,
+  "seed": 1,
+  "mode": "listen",
+  "palette": {
+    "keys": "rhodes",
+    "bass": "warm_sine",
+    "pad": "soft_saw_pad",
+    "kit": "dusty",
+    "textures": [
+      "vinyl"
+    ]
+  },
+  "progressions": {
+    "intro": [
+      "ii9",
+      "V13",
+      "Imaj9",
+      "VI7alt"
+    ],
+    "verse": [
+      "ii9",
+      "V13",
+      "Imaj9",
+      "vi11",
+      "ii9",
+      "V13",
+      "Imaj9",
+      "VI7alt"
+    ],
+    "hook": [
+      "IVmaj9",
+      "III7alt",
+      "vi9",
+      "ii9 V13"
+    ],
+    "bridge": [
+      "bVIImaj9",
+      "vi7",
+      "v9",
+      "V13sus"
+    ],
+    "outro": [
+      "ii9",
+      "V13",
+      "Imaj9",
+      "vi11",
+      "ii9",
+      "V13sus",
+      "Imaj9",
+      "Imaj9"
+    ]
+  },
+  "melodies": {
+    "fill": [
+      [7, 10, 2, "b2"],
+      [7, 12, 2, "b7,"],
+      [7, 14, 2, "5,"]
+    ],
+    "hook": [
+      [0, 0, 3, "1"],
+      [0, 3, 3, "3"],
+      [0, 6, 4, "5"],
+      [0, 10, 6, "3"],
+      [1, 0, 4, "4"],
+      [1, 4, 2, "3"],
+      [1, 6, 4, "2"],
+      [1, 10, 6, "1"],
+      [2, 0, 6, "7,"],
+      [2, 6, 2, "1"],
+      [2, 8, 8, "3"],
+      [3, 0, 4, "4"],
+      [3, 4, 3, "3"],
+      [3, 8, 4, "2"],
+      [3, 12, 4, "7,"],
+      [4, 0, 3, "1"],
+      [4, 3, 3, "3"],
+      [4, 6, 4, "5"],
+      [4, 10, 3, "6"],
+      [4, 13, 3, "5"],
+      [5, 0, 6, "4"],
+      [5, 6, 2, "3"],
+      [5, 8, 4, "2"],
+      [5, 12, 4, "b6,"],
+      [6, 0, 4, "6,"],
+      [6, 4, 4, "7,"],
+      [6, 8, 4, "1"],
+      [6, 12, 4, "3"],
+      [7, 0, 7, "2"],
+      [7, 8, 4, "7,"],
+      [7, 12, 3, "6,"]
+    ],
+    "answers": [
+      [3, 8, 2, "3"],
+      [3, 10, 2, "2"],
+      [3, 12, 2, "1"],
+      [3, 14, 2, "6,"],
+      [7, 8, 2, "5,"],
+      [7, 10, 2, "b7,"],
+      [7, 12, 2, "b2"],
+      [7, 14, 2, "4"]
+    ],
+    "bridge": [
+      [0, 0, 8, "4"],
+      [0, 8, 8, "2"],
+      [1, 0, 15, "1"],
+      [2, 0, 8, "b7,"],
+      [2, 8, 8, "6,"],
+      [3, 0, 6, "5,"]
+    ],
+    "solo": [
+      [0, 2, 2, "6,"],
+      [0, 4, 2, "1"],
+      [0, 6, 2, "3"],
+      [0, 8, 4, "4"],
+      [0, 12, 2, "3"],
+      [0, 14, 2, "2"],
+      [1, 0, 4, "7,"],
+      [1, 4, 2, "2"],
+      [1, 6, 2, "3"],
+      [1, 8, 5, "4"],
+      [1, 14, 2, "3"],
+      [2, 0, 6, "2"],
+      [2, 6, 2, "7,"],
+      [2, 8, 4, "5,"],
+      [2, 12, 4, "3,"],
+      [3, 2, 2, "5,"],
+      [3, 4, 2, "6,"],
+      [3, 6, 2, "1"],
+      [3, 8, 7, "2"],
+      [4, 0, 3, "3"],
+      [4, 3, 3, "4"],
+      [4, 6, 2, "3"],
+      [4, 8, 2, "1"],
+      [4, 10, 6, "6,"],
+      [5, 2, 2, "7,"],
+      [5, 4, 2, "2"],
+      [5, 6, 4, "3"],
+      [5, 10, 2, "2"],
+      [5, 12, 4, "7,"],
+      [6, 0, 8, "3"],
+      [6, 8, 4, "2"],
+      [6, 12, 4, "7,"],
+      [7, 0, 4, "b2"],
+      [7, 4, 4, "b7,"],
+      [7, 8, 7, "5,"]
+    ]
+  },
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": 4,
+      "prog": "intro",
+      "keys": "filtered",
+      "bass": "none",
+      "drums": "intro"
+    },
+    {
+      "name": "Verse 1",
+      "bars": 8,
+      "prog": "verse",
+      "keys": "chop",
+      "bass": "kick_lock",
+      "drums": "boombap",
+      "riser": true,
+      "fill": "pickup",
+      "leads": [
+        {
+          "inst": "vibes",
+          "melody": "fill",
+          "vel": 70
+        }
+      ]
+    },
+    {
+      "name": "Hook 1",
+      "bars": 8,
+      "prog": "hook",
+      "keys": "hold",
+      "bass": "hook",
+      "drums": "boombap_busy",
+      "crash": true,
+      "riser": true,
+      "fill": "stop",
+      "leads": [
+        {
+          "inst": "vibes",
+          "melody": "hook",
+          "vel": 84
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "bars": 8,
+      "prog": "verse",
+      "keys": "sync",
+      "bass": "walk",
+      "drums": "boombap_ghost",
+      "crash": true,
+      "leads": [
+        {
+          "inst": "vibes",
+          "melody": "answers",
+          "vel": 72
+        }
+      ]
+    },
+    {
+      "name": "Bridge A",
+      "bars": 4,
+      "prog": "bridge",
+      "keys": "arp",
+      "bass": "whole",
+      "drums": "breakdown",
+      "pad": true
+    },
+    {
+      "name": "Bridge B",
+      "bars": 4,
+      "prog": "bridge",
+      "keys": "arp",
+      "bass": "halftime",
+      "drums": "halftime",
+      "pad": true,
+      "fill": "build",
+      "leads": [
+        {
+          "inst": "flute",
+          "melody": "bridge",
+          "vel": 80
+        }
+      ]
+    },
+    {
+      "name": "Hook 2",
+      "bars": 8,
+      "prog": "hook",
+      "keys": "hold",
+      "bass": "hook",
+      "drums": "ride",
+      "pad": true,
+      "crash": true,
+      "riser": true,
+      "leads": [
+        {
+          "inst": "flute",
+          "melody": "hook",
+          "vel": 86
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "bars": 8,
+      "prog": "verse",
+      "keys": "sparse",
+      "bass": "bounce",
+      "drums": "boombap",
+      "shaker": true,
+      "fill": "pickup",
+      "leads": [
+        {
+          "inst": "vibes",
+          "melody": "solo",
+          "vel": 80
+        }
+      ]
+    },
+    {
+      "name": "Hook 3",
+      "bars": 8,
+      "prog": "hook",
+      "keys": "hold",
+      "bass": "hook",
+      "drums": "ride",
+      "pad": true,
+      "crash": true,
+      "riser": true,
+      "fill": "stop",
+      "leads": [
+        {
+          "inst": "flute",
+          "melody": "hook",
+          "vel": 88
+        },
+        {
+          "inst": "vibes",
+          "melody": "hook",
+          "vel": 70,
+          "harmony": "below"
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "bars": 8,
+      "prog": "outro",
+      "keys": "filtered",
+      "bass": "whole",
+      "drums": "fade_out"
+    }
+  ]
+}

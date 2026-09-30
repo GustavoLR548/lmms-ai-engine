@@ -1,0 +1,80 @@
+{
+  "skill_name": "lmms-gamemusic",
+  "evals": [
+    {
+      "id": 1,
+      "name": "overworld-snes-soundmd",
+      "prompt": "I'm working on my game Emberfall, the project folder is {project}. I need the overworld theme: heroic and adventurous, SNES style, think Secret of Mana / Zelda field music. It has to loop seamlessly. Put it wherever the SOUND.md says music goes.",
+      "expected_output": "A SNES-style (snes) looping overworld theme that respects SOUND.md: palette without the Avoid instruments, tempo within 80-140, exported to assets/audio/music/overworld.ogg (+ loop json) at -18 LUFS, seamless, with an Audio Log row appended and the style sections untouched.",
+      "files": [
+        "evals/files/emberfall/SOUND.md"
+      ],
+      "expectations": [
+        "Exported to assets/audio/music/overworld.ogg (SOUND.md's path) with loop json next to it",
+        "A song.json was delivered and uses the 'snes' console style",
+        "song.json is a loop (\"loop\": true or {\"from\": ...})",
+        "The song builds with 0 harmony / spec problems",
+        "The loop has at least two contrasting parts (two or more different progressions)",
+        "The last bar leads back into the loop (its final chord differs from the loop's first chord)",
+        "make's loop json reports the seam SEAMLESS",
+        "Independent check of the loop file: sample-continuous wrap and exact bar length (±5 ms)",
+        "Loop loudness is -18.0 LUFS ±1",
+        "True peak of the loop is at or below -1 dBFS",
+        "A preview mp3 and the reply (response.md) were delivered",
+        "Instruments respect SOUND.md's Avoid line (no synth / FM leads, distorted guitar, electric or synth bass, drum machine)",
+        "Tempo is inside SOUND.md's 80-140 BPM range",
+        "Exploration theme in a major key, as SOUND.md asks (loop starts on a major chord)",
+        "SOUND.md's Audio Log got a new row for overworld.ogg",
+        "SOUND.md's style sections (everything above the Audio Log) were left unchanged"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "boss-fm-intro",
+      "prompt": "Make me a boss fight track for my shmup. Genesis-style FM, fast and aggressive. It should have a short intro that plays once and then loop forever. I'll drop it into Godot.",
+      "expected_output": "An fm-style boss loop at a fast tempo with a short play-once intro (loop.from), exported as intro / loop / full OGG files with correct LOOPSTART/LOOPLENGTH tags, seamless, -16 LUFS, and Godot instructions in the reply.",
+      "files": [],
+      "expectations": [
+        "A song.json was delivered and uses the 'fm' console style",
+        "song.json is a loop (\"loop\": true or {\"from\": ...})",
+        "The song builds with 0 harmony / spec problems",
+        "The loop has at least two contrasting parts (two or more different progressions)",
+        "The last bar leads back into the loop (its final chord differs from the loop's first chord)",
+        "make's loop json reports the seam SEAMLESS",
+        "Independent check of the loop file: sample-continuous wrap and exact bar length (±5 ms)",
+        "Loop loudness is -16.0 LUFS ±1",
+        "True peak of the loop is at or below -1 dBFS",
+        "A preview mp3 and the reply (response.md) were delivered",
+        "Has a short play-once intro (loop.from set, 1-8 intro bars)",
+        "Fast tempo for a boss fight (>= 140 BPM)",
+        "Aggressive / dark harmony (loop starts on a minor or power chord)",
+        "Delivers the intro, loop and full (tagged) OGG files",
+        "full.ogg's LOOPSTART / LOOPLENGTH tags match the loop json and the file length",
+        "The reply tells the user how to loop it in Godot (Loop import flag or loop_offset)"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "dungeon-underplay-1min",
+      "prompt": "I need a tense 16-bit dungeon loop for my dark dungeon crawler, around a minute long. It plays under combat sound effects, so it shouldn't be too busy.",
+      "expected_output": "A minor-key, restrained dungeon loop of about 60 s (50-70 s) at a slow-to-moderate tempo, sparse drums and accompaniment, seamless, -16 LUFS.",
+      "files": [],
+      "expectations": [
+        "A song.json was delivered and uses the 'snes' or 'fm' console style",
+        "song.json is a loop (\"loop\": true or {\"from\": ...})",
+        "The song builds with 0 harmony / spec problems",
+        "The loop has at least two contrasting parts (two or more different progressions)",
+        "The last bar leads back into the loop (its final chord differs from the loop's first chord)",
+        "make's loop json reports the seam SEAMLESS",
+        "Independent check of the loop file: sample-continuous wrap and exact bar length (±5 ms)",
+        "Loop loudness is -16.0 LUFS ±1",
+        "True peak of the loop is at or below -1 dBFS",
+        "A preview mp3 and the reply (response.md) were delivered",
+        "Loop is about a minute (50-70 s)",
+        "Slow-to-moderate dungeon tempo (<= 110 BPM)",
+        "Tense / dark harmony (loop starts on a minor, power or sus chord)",
+        "Arrangement stays out of the way of combat SFX (no battle / boss / rock drums, no 8th-note stabs)"
+      ]
+    }
+  ]
+}
